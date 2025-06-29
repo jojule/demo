@@ -35,9 +35,10 @@ import com.vaadin.flow.server.auth.AnonymousAllowed;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.Menu;
+import jakarta.annotation.security.PermitAll;
 
 @PageTitle("Dashboard")
-@AnonymousAllowed
+@PermitAll
 @Route(value = "dashboard")
 @Menu(title = "Dashboard", icon = "vaadin:bar-chart-h")
 public class Dashboard extends Main {

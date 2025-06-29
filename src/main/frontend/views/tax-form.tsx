@@ -24,7 +24,7 @@ function TaxForm() {
             <Card>
                 <div style={{padding: '20px', fontFamily: 'Arial, sans-serif'}}>
                     <h2 style={{textAlign: 'center'}}>California Form 540</h2>
-                    <img src="images/california-tax-form.png" alt="" /><p style={{textAlign: 'center'}}>2024 California Resident Income Tax Return</p>
+                    <img src="images/california-tax-form.png" alt="" style={{maxWidth: '100%'}} /><p style={{textAlign: 'center'}}>2024 California Resident Income Tax Return</p>
                 </div>
             </Card>
 

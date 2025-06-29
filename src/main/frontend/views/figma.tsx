@@ -13,11 +13,11 @@ import {Link, NavLink} from "react-router";
 
 
 export const config: ViewConfig = {
-    title: 'Figma',
+    title: 'Figma Misc',
     loginRequired: true,
     menu: {
         icon: 'vaadin:pencil',
-        title: 'Figma',
+        title: 'Figma Misc',
     },
 };
 

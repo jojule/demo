@@ -24,9 +24,9 @@ import java.util.Optional;
 
 import static com.vaadin.flow.spring.data.VaadinSpringDataHelpers.toSpringPageRequest;
 
-@Route("task-list-flow")
-@PageTitle("Task List Flow")
-@Menu(order = 0, icon = "vaadin:clipboard-check", title = "Task List Flow")
+@Route("task-list-java")
+@PageTitle("Task List")
+@Menu(order = 0, icon = "vaadin:clipboard-check", title = "Task List Java")
 @PermitAll // When security is enabled, allow all authenticated users
 public class TaskListView extends Main {
 
@@ -69,7 +69,7 @@ public class TaskListView extends Main {
         addClassNames(LumoUtility.BoxSizing.BORDER, LumoUtility.Display.FLEX, LumoUtility.FlexDirection.COLUMN,
                 LumoUtility.Padding.MEDIUM, LumoUtility.Gap.SMALL);
 
-        add(new ViewToolbar("Task List Flow", ViewToolbar.group(description, dueDate, createBtn)));
+        add(new ViewToolbar("Task List", ViewToolbar.group(description, dueDate, createBtn)));
         add(taskGrid);
     }
 

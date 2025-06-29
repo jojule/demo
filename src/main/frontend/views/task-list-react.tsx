@@ -13,7 +13,7 @@ export const config: ViewConfig = {
   menu: {
     icon: 'vaadin:clipboard-check',
     order: 1,
-    title: 'Task List',
+    title: 'Task List React',
   },
   loginRequired: true,
 };

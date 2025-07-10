@@ -39,10 +39,6 @@ class DevLoginView extends Main implements BeforeEnterObserver {
         var centerDiv = new Div(login, exampleUsers);
         add(centerDiv);
 
-        var devModeMenuDiv = new Div("You can also use the Dev Mode Menu here to impersonate any user!");
-        devModeMenuDiv.addClassNames("dev-mode-speech-bubble");
-        add(devModeMenuDiv);
-
         // Style the view
         addClassNames(LumoUtility.Display.FLEX, LumoUtility.JustifyContent.CENTER, LumoUtility.AlignItems.CENTER,
                 LumoUtility.Background.CONTRAST_5);
